@@ -1,4 +1,4 @@
-require "#{RAILS_ROOT}/config/phpbb_auth_settings"
+require "#{Rails.root}/config/phpbb_auth_settings"
 
 module PhpbbAuth  
   def current_user
